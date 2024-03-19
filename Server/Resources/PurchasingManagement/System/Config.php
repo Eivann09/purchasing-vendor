@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Resources\<SYSTEM NAME>\System;
+namespace Resources\PurchasingManagement\System;
 
 /**
  * Class Config

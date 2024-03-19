@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Resources\<SYSTEM NAME>\Helpers;
+namespace Resources\PurchasingManagement\Helpers;
 
 use GuzzleHttp\Client;
 

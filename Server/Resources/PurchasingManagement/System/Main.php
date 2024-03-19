@@ -1,7 +1,7 @@
 <?php
-namespace Resources\<SYSTEM NAME>\System;
+namespace Resources\PurchasingManagement\System;
 
-use Resources\<SYSTEM NAME>\System\Config;
+use Resources\PurchasingManagement\System\Config;
 use MysqliDb;
 use Server\Messages;
 
