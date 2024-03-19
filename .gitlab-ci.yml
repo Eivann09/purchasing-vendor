@@ -1,0 +1,92 @@
+stages:
+  - system
+  - database
+  - test
+  - merge
+  - cleanup
+
+variables:
+  TARGET_DIRECTORY: 'C:\xampp\htdocs\purchasing-backend'
+
+build-purchasing-backend:
+  stage: system
+  rules:
+    - if: '$CI_COMMIT_BRANCH != "purchasing-base"'
+  before_script:
+    - if(Test-Path $TARGET_DIRECTORY) { Remove-Item -Path $TARGET_DIRECTORY -Recurse -Force }
+    - New-Item -ItemType Directory -Path $TARGET_DIRECTORY
+  script:
+    - $filePath = "$env:CI_PROJECT_DIR/tests/api.suite.yml"
+    - |
+      $content = @"
+      actor: ApiTester
+      modules:
+        enabled:
+          - REST:
+              url: http://localhost/purchasing-backend/purchasingManagement
+              depends: PhpBrowser
+              part: Json
+      "@
+    - New-Item -Path $filePath -Value $content -Force
+    - composer install
+    - Copy-Item -Path "$env:CI_PROJECT_DIR\*" -Destination $TARGET_DIRECTORY -Recurse -Force
+  tags:
+    - pixel8
+
+build-database:
+  stage: database
+  rules:
+    - if: '$CI_COMMIT_BRANCH != "purchasing-base"'
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - mysql -u root -e "DROP DATABASE IF EXISTS p8_purchasing_ojt_db"
+    - mysql -u root -e "CREATE DATABASE IF NOT EXISTS p8_purchasing_ojt_db"
+    - cmd.exe /c "mysql -u root p8_purchasing_ojt_db < $env:CI_PROJECT_DIR/Server/Resources/PurchasingManagement/Database/p8_purchasing_ojt_db.sql"
+  needs:
+    - job: build-purchasing-backend
+  tags:
+    - pixel8
+
+run-api-tests:
+  stage: test
+  rules:
+    - if: '$CI_COMMIT_BRANCH != "purchasing-base"'
+  variables:
+    GIT_STRATEGY: none
+  script:
+    # - vendor/bin/phpunit --configuration $env:CI_PROJECT_DIR\Server\Resources\Accounting\Test\phpunit.xml
+    - cd $TARGET_DIRECTORY
+    - php vendor/bin/codecept run api
+  needs:
+    - job: build-database
+  tags:
+    - pixel8
+
+merge:
+  stage: merge
+  rules:
+    - if: $CI_COMMIT_BRANCH != 'purchasing-base'
+  variables:
+    GIT_STRATEGY: none
+  script:
+    # ---------------- #
+    # YOUR SCRIPT HERE
+    # ---------------- #
+    - pwd
+  needs:
+    - job: run-api-tests
+  tags:
+    - pixel8
+
+delete-backend-folder:
+  stage: cleanup
+  rules:
+    - if: '$CI_COMMIT_BRANCH != "purchasing-base"'
+      when: always
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - Remove-Item -Path $TARGET_DIRECTORY -Recurse -Force
+  tags:
+    - pixel8

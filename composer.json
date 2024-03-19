@@ -1,0 +1,42 @@
+{
+  "name": "pixel8/core-backend",
+  "description": "Core API handler for all Pixel8 subsystems",
+  "require": {
+    "thingengineer/mysqli-database-class": "dev-master",
+    "setasign/fpdf": "^1.8",
+    "setasign/fpdi": "^2.3",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "phpmailer/phpmailer": "^6.5",
+    "firebase/php-jwt": "^6.0",
+    "paragonie/sodium_compat": "^1.17",
+    "guzzlehttp/guzzle": "7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11",
+    "codeception/codeception": "^5.1",
+    "codeception/module-phpbrowser": "dev-master",
+    "codeception/module-asserts": "dev-master",
+    "codeception/module-rest": "dev-master",
+    "codeception/module-webdriver": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Resources\\": "Server/Resources",
+      "Server\\": "Server",
+      "Wrapper\\Interfaces\\": "Server",
+      "Wrapper\\Security\\": "Server"
+    }
+  },
+  "authors": [
+    {
+      "name": "Pixel8 Web Solutions and Consultancy Inc.",
+      "email": "software.pixel8@gmail.com"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "symfony/flex": true
+    }
+  }
+}
