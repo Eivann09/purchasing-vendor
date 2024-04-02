@@ -28,10 +28,27 @@ build-purchasing-backend:
               part: Json
       "@
     - New-Item -Path $filePath -Value $content -Force
+    - cat $filePath
+
     - composer install
     - Copy-Item -Path "$env:CI_PROJECT_DIR\*" -Destination $TARGET_DIRECTORY -Recurse -Force
   tags:
     - pixel8
+
+.setup-web-server:
+  stage: system
+  rules:
+    - if: $CI_COMMIT_BRANCH != 'purchasing-base'
+  script:
+    - c:/xampp/apache_start.bat start
+    # - composer install
+    # - cd ..
+    # - dir
+    # - php -S localhost:8686
+  timeout: 90 seconds
+  allow_failure: true
+  needs: []
+  tags: ['pixel8']
 
 build-database:
   stage: database
@@ -55,9 +72,10 @@ run-api-tests:
   variables:
     GIT_STRATEGY: none
   script:
+    - START C:/xampp/apache_start.bat
     # - vendor/bin/phpunit --configuration $env:CI_PROJECT_DIR\Server\Resources\Accounting\Test\phpunit.xml
     - cd $TARGET_DIRECTORY
-    - php vendor/bin/codecept run api
+    - php vendor/bin/codecept run Api
   needs:
     - job: build-database
   tags:
@@ -70,10 +88,10 @@ merge:
   variables:
     GIT_STRATEGY: none
   script:
+    - dir
     # ---------------- #
     # YOUR SCRIPT HERE
     # ---------------- #
-    - pwd
   needs:
     - job: run-api-tests
   tags:
@@ -88,5 +106,17 @@ delete-backend-folder:
     GIT_STRATEGY: none
   script:
     - Remove-Item -Path $TARGET_DIRECTORY -Recurse -Force
+    - Remove-Item -Path $env:CI_PROJECT_DIR/* -Recurse -Force
   tags:
     - pixel8
+
+remove-remnants:
+  stage: cleanup
+  rules:
+    - if: $CI_COMMIT_BRANCH != 'purchasing-base'
+      when: always
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - Remove-Item -Path $env:CI_PROJECT_DIR/* -Recurse -Force
+  tags: ['pixel8']
