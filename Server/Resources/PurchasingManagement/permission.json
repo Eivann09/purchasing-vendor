@@ -1,0 +1,232 @@
+{
+    "system_name": "PurchasingManagement",
+    "system_alias": "purchasingManagement",
+    "system_description": "Purchasing Management System",
+    "unique_identifier": "PURCHASING",
+    "modules":[
+        {
+            "module_name": "Purchase Request",
+            "module_alias": "purchaseRequest",
+            "module_description": "Purchase Request Module",
+            "unique_identifier": "PURCHASING_PURCHASE_REQUEST",
+            "functions": [
+                {
+                "functions_name": "Read Purchase Request",
+                "functions_alias": "PURCHASE_REQUEST_GET",
+                "functions_description": "Read Purchase Request",
+                "unique_identifier": "PURCHASING_PURCHASE_REQUEST_GET"
+                },
+                {
+                "functions_name": "Create Purchase Request",
+                "functions_alias": "PURCHASE_REQUEST_POST",
+                "functions_description": "Read Purchase Request",
+                "unique_identifier": "PURCHASING_PURCHASE_REQUEST_POST"
+                },
+                {
+                "functions_name": "Update Purchase Request",
+                "functions_alias": "PURCHASE_REQUEST_PUT",
+                "functions_description": "Update Purchase Request",
+                "unique_identifier": "PURCHASING_PURCHASE_REQUEST_PUT"
+                },
+                {
+                "functions_name": "Delete Purchase Request",
+                "functions_alias": "PURCHASE_REQUEST_DELETE",
+                "functions_description": "Delete Purchase Request",
+                "unique_identifier": "PURCHASING_PURCHASE_REQUEST_DELETE"
+                }
+            ]
+        },
+        {
+            "module_name": "Vendor",
+            "module_alias": "vendors",
+            "module_description": "Vendor Module",
+            "unique_identifier": "PURCHASING_VENDOR",
+            "functions": [
+                {
+                "functions_name": "Read Vendor",
+                "functions_alias": "VENDOR_GET",
+                "functions_description": "Read Vendor",
+                "unique_identifier": "PURCHASING_VENDOR_GET"
+                },
+                {
+                "functions_name": "Create Vendor",
+                "functions_alias": "PURCHASING_VENDOR_POST",
+                "functions_description": "Read Vendor",
+                "unique_identifier": "PURCHASING_VENDOR_POST"
+                },
+                {
+                "functions_name": "Update Vendor",
+                "functions_alias": "PURCHASING_VENDOR_PUT",
+                "functions_description": "Update Vendor",
+                "unique_identifier": "PURCHASING_VENDOR_PUT"
+                },
+                {
+                "functions_name": "Delete Vendor",
+                "functions_alias": "PURCHASING_VENDOR_DELETE",
+                "functions_description": "Delete Vendor",
+                "unique_identifier": "PURCHASING_VENDOR_DELETE"
+                }
+            ]
+        },
+        {
+            "module_name": "Purchase Order",
+            "module_alias": "purchaseOrder",
+            "module_description": "Purchase Order Module",
+            "unique_identifier": "PURCHASING_PURCHASE_ORDER",
+            "functions": [
+                {
+                "functions_name": "Read Purchase Order",
+                "functions_alias": "PURCHASE_ORDER_GET",
+                "functions_description": "Read Purchase Order",
+                "unique_identifier": "PURCHASING_PURCHASE_ORDER_GET"
+                },
+                {
+                "functions_name": "Create Purchase Order",
+                "functions_alias": "PURCHASE_ORDER_POST",
+                "functions_description": "Read Purchase Order",
+                "unique_identifier": "PURCHASING_PURCHASE_ORDER_POST"
+                },
+                {
+                "functions_name": "Update Purchase Order",
+                "functions_alias": "PURCHASE_ORDER_PUT",
+                "functions_description": "Update Purchase Order",
+                "unique_identifier": "PURCHASING_PURCHASE_ORDER_PUT"
+                },
+                {
+                "functions_name": "Delete Purchase Order",
+                "functions_alias": "PURCHASE_ORDER_DELETE",
+                "functions_description": "Delete Purchase Order",
+                "unique_identifier": "PURCHASING_PURCHASE_ORDER_DELETE"
+                }
+            ]
+        },
+        {
+            "module_name": "Quatation",
+            "module_alias": "quatation",
+            "module_description": "Quatation Module",
+            "unique_identifier": "PURCHASING_QUATATION",
+            "functions": [
+                {
+                "functions_name": "Read Quatation",
+                "functions_alias": "QUATATION_GET",
+                "functions_description": "Read Quatation",
+                "unique_identifier": "PURCHASING_QUATATION_GET"
+                },
+                {
+                "functions_name": "Create Quatation",
+                "functions_alias": "QUATATION_POST",
+                "functions_description": "Read Quatation",
+                "unique_identifier": "PURCHASING_QUATATION_POST"
+                },
+                {
+                "functions_name": "Update Quatation",
+                "functions_alias": "QUATATION_PUT",
+                "functions_description": "Update Quatation",
+                "unique_identifier": "PURCHASING_QUATATION_PUT"
+                },
+                {
+                "functions_name": "Delete Quatation",
+                "functions_alias": "QUATATION_DELETE",
+                "functions_description": "Delete Quatation",
+                "unique_identifier": "PURCHASING_QUATATION_DELETE"
+                }
+            ]
+        },
+        {
+            "module_name": "Quatation Counter Offer",
+            "module_alias": "quatationCounterOffer",
+            "module_description": "Quatation Counter Offer Module",
+            "unique_identifier": "PURCHASING_QUATATION_COUNTER_OFFER",
+            "functions": [
+                {
+                "functions_name": "Read Quatation Counter Offer",
+                "functions_alias": "QUATATION_COUNTER_OFFER_GET",
+                "functions_description": "Read Quatation Counter Offer",
+                "unique_identifier": "PURCHASING_QUATATION_COUNTER_OFFER_GET"
+                },
+                {
+                "functions_name": "Create Quatation Counter Offer",
+                "functions_alias": "QUATATION_COUNTER_OFFER_POST",
+                "functions_description": "Read Quatation Counter Offer",
+                "unique_identifier": "PURCHASING_QUATATION_COUNTER_OFFER_POST"
+                },
+                {
+                "functions_name": "Update Quatation Counter Offer",
+                "functions_alias": "QUATATION_COUNTER_OFFER_PUT",
+                "functions_description": "Update Quatation Counter Offer",
+                "unique_identifier": "PURCHASING_QUATATION_COUNTER_OFFER_PUT"
+                },
+                {
+                "functions_name": "Delete Quatation Counter Offer",
+                "functions_alias": "QUATATION_COUNTER_OFFER_DELETE",
+                "functions_description": "Delete Quatation Counter Offer",
+                "unique_identifier": "PURCHASING_QUATATION_COUNTER_OFFER_DELETE"
+                }
+            ]
+        },
+        {
+            "module_name": "Request Counter Offer",
+            "module_alias": "requestCounterOffer",
+            "module_description": "Request Counter Offer Module",
+            "unique_identifier": "PURCHASING_REQUEST_COUNTER_OFFER",
+            "functions": [
+                {
+                "functions_name": "Read Request Counter Offer",
+                "functions_alias": "REQUEST_COUNTER_OFFER_GET",
+                "functions_description": "Read Request Counter Offer",
+                "unique_identifier": "PURCHASING_REQUEST_COUNTER_OFFER_GET"
+                },
+                {
+                "functions_name": "Create Request Counter Offer",
+                "functions_alias": "REQUEST_COUNTER_OFFER_POST",
+                "functions_description": "Read Request Counter Offer",
+                "unique_identifier": "PURCHASING_REQUEST_COUNTER_OFFER_POST"
+                },
+                {
+                "functions_name": "Update Request Counter Offer",
+                "functions_alias": "REQUEST_COUNTER_OFFER_PUT",
+                "functions_description": "Update Request Counter Offer",
+                "unique_identifier": "PURCHASING_REQUEST_COUNTER_OFFER_PUT"
+                },
+                {
+                "functions_name": "Delete Request Counter Offer",
+                "functions_alias": "REQUEST_COUNTER_OFFER_DELETE",
+                "functions_description": "Delete Request Counter Offer",
+                "unique_identifier": "PURCHASING_REQUEST_COUNTER_OFFER_DELETE"
+                }
+            ]
+        },
+        {
+            "module_name": "Activity Logs",
+            "module_alias": "activityLogs",
+            "module_description": "Activity Logs Module",
+            "unique_identifier": "PURCHASING_ACTIVITY_LOGS",
+            "functions": [
+                {
+                "functions_name": "Read Activity Logs",
+                "functions_alias": "ACTIVITY_LOGS_GET",
+                "functions_description": "Read Activity Logs",
+                "unique_identifier": "PURCHASING_ACTIVITY_LOGS_GET"
+                },
+                {
+                "functions_name": "Create Activity Logs",
+                "functions_alias": "ACTIVITY_LOGS_POST",
+                "functions_description": "Read Activity Logs",
+                "unique_identifier": "PURCHASING_ACTIVITY_LOGS_POST"
+                },
+                {
+                "functions_name": "Update Activity Logs",
+                "functions_alias": "ACTIVITY_LOGS_PUT",
+                "functions_description": "Update Activity Logs",
+                "unique_identifier": "PURCHASING_ACTIVITY_LOGS_PUT"
+                },
+                {
+                "functions_name": "Delete Activity Logs",
+                "functions_alias": "ACTIVITY_LOGS_DELETE",
+                "functions_description": "Delete Activity Logs",
+                "unique_identifier": "PURCHASING_ACTIVITY_LOGS_DELETE"
+                }
+            ]
+        }
+    ]
+}
