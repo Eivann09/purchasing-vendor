@@ -11,27 +11,27 @@
             "unique_identifier": "PURCHASING_PURCHASE_REQUEST",
             "functions": [
                 {
-                "functions_name": "Read Purchase Request",
-                "functions_alias": "PURCHASE_REQUEST_GET",
-                "functions_description": "Read Purchase Request",
+                "function_name": "Read Purchase Request",
+                "function_alias": "PURCHASE_REQUEST_GET",
+                "function_description": "Read Purchase Request",
                 "unique_identifier": "PURCHASING_PURCHASE_REQUEST_GET"
                 },
                 {
-                "functions_name": "Create Purchase Request",
-                "functions_alias": "PURCHASE_REQUEST_POST",
-                "functions_description": "Read Purchase Request",
+                "function_name": "Create Purchase Request",
+                "function_alias": "PURCHASE_REQUEST_POST",
+                "function_description": "Read Purchase Request",
                 "unique_identifier": "PURCHASING_PURCHASE_REQUEST_POST"
                 },
                 {
-                "functions_name": "Update Purchase Request",
-                "functions_alias": "PURCHASE_REQUEST_PUT",
-                "functions_description": "Update Purchase Request",
+                "function_name": "Update Purchase Request",
+                "function_alias": "PURCHASE_REQUEST_PUT",
+                "function_description": "Update Purchase Request",
                 "unique_identifier": "PURCHASING_PURCHASE_REQUEST_PUT"
                 },
                 {
-                "functions_name": "Delete Purchase Request",
-                "functions_alias": "PURCHASE_REQUEST_DELETE",
-                "functions_description": "Delete Purchase Request",
+                "function_name": "Delete Purchase Request",
+                "function_alias": "PURCHASE_REQUEST_DELETE",
+                "function_description": "Delete Purchase Request",
                 "unique_identifier": "PURCHASING_PURCHASE_REQUEST_DELETE"
                 }
             ]
@@ -43,27 +43,27 @@
             "unique_identifier": "PURCHASING_VENDOR",
             "functions": [
                 {
-                "functions_name": "Read Vendor",
-                "functions_alias": "VENDOR_GET",
-                "functions_description": "Read Vendor",
+                "function_name": "Read Vendor",
+                "function_alias": "VENDOR_GET",
+                "function_description": "Read Vendor",
                 "unique_identifier": "PURCHASING_VENDOR_GET"
                 },
                 {
-                "functions_name": "Create Vendor",
-                "functions_alias": "PURCHASING_VENDOR_POST",
-                "functions_description": "Read Vendor",
+                "function_name": "Create Vendor",
+                "function_alias": "PURCHASING_VENDOR_POST",
+                "function_description": "Read Vendor",
                 "unique_identifier": "PURCHASING_VENDOR_POST"
                 },
                 {
-                "functions_name": "Update Vendor",
-                "functions_alias": "PURCHASING_VENDOR_PUT",
-                "functions_description": "Update Vendor",
+                "function_name": "Update Vendor",
+                "function_alias": "PURCHASING_VENDOR_PUT",
+                "function_description": "Update Vendor",
                 "unique_identifier": "PURCHASING_VENDOR_PUT"
                 },
                 {
-                "functions_name": "Delete Vendor",
-                "functions_alias": "PURCHASING_VENDOR_DELETE",
-                "functions_description": "Delete Vendor",
+                "function_name": "Delete Vendor",
+                "function_alias": "PURCHASING_VENDOR_DELETE",
+                "function_description": "Delete Vendor",
                 "unique_identifier": "PURCHASING_VENDOR_DELETE"
                 }
             ]
@@ -75,27 +75,27 @@
             "unique_identifier": "PURCHASING_PURCHASE_ORDER",
             "functions": [
                 {
-                "functions_name": "Read Purchase Order",
-                "functions_alias": "PURCHASE_ORDER_GET",
-                "functions_description": "Read Purchase Order",
+                "function_name": "Read Purchase Order",
+                "function_alias": "PURCHASE_ORDER_GET",
+                "function_description": "Read Purchase Order",
                 "unique_identifier": "PURCHASING_PURCHASE_ORDER_GET"
                 },
                 {
-                "functions_name": "Create Purchase Order",
-                "functions_alias": "PURCHASE_ORDER_POST",
-                "functions_description": "Read Purchase Order",
+                "function_name": "Create Purchase Order",
+                "function_alias": "PURCHASE_ORDER_POST",
+                "function_description": "Read Purchase Order",
                 "unique_identifier": "PURCHASING_PURCHASE_ORDER_POST"
                 },
                 {
-                "functions_name": "Update Purchase Order",
-                "functions_alias": "PURCHASE_ORDER_PUT",
-                "functions_description": "Update Purchase Order",
+                "function_name": "Update Purchase Order",
+                "function_alias": "PURCHASE_ORDER_PUT",
+                "function_description": "Update Purchase Order",
                 "unique_identifier": "PURCHASING_PURCHASE_ORDER_PUT"
                 },
                 {
-                "functions_name": "Delete Purchase Order",
-                "functions_alias": "PURCHASE_ORDER_DELETE",
-                "functions_description": "Delete Purchase Order",
+                "function_name": "Delete Purchase Order",
+                "function_alias": "PURCHASE_ORDER_DELETE",
+                "function_description": "Delete Purchase Order",
                 "unique_identifier": "PURCHASING_PURCHASE_ORDER_DELETE"
                 }
             ]
@@ -107,27 +107,27 @@
             "unique_identifier": "PURCHASING_QUATATION",
             "functions": [
                 {
-                "functions_name": "Read Quatation",
-                "functions_alias": "QUATATION_GET",
-                "functions_description": "Read Quatation",
+                "function_name": "Read Quatation",
+                "function_alias": "QUATATION_GET",
+                "function_description": "Read Quatation",
                 "unique_identifier": "PURCHASING_QUATATION_GET"
                 },
                 {
-                "functions_name": "Create Quatation",
-                "functions_alias": "QUATATION_POST",
-                "functions_description": "Read Quatation",
+                "function_name": "Create Quatation",
+                "function_alias": "QUATATION_POST",
+                "function_description": "Read Quatation",
                 "unique_identifier": "PURCHASING_QUATATION_POST"
                 },
                 {
-                "functions_name": "Update Quatation",
-                "functions_alias": "QUATATION_PUT",
-                "functions_description": "Update Quatation",
+                "function_name": "Update Quatation",
+                "function_alias": "QUATATION_PUT",
+                "function_description": "Update Quatation",
                 "unique_identifier": "PURCHASING_QUATATION_PUT"
                 },
                 {
-                "functions_name": "Delete Quatation",
-                "functions_alias": "QUATATION_DELETE",
-                "functions_description": "Delete Quatation",
+                "function_name": "Delete Quatation",
+                "function_alias": "QUATATION_DELETE",
+                "function_description": "Delete Quatation",
                 "unique_identifier": "PURCHASING_QUATATION_DELETE"
                 }
             ]
@@ -139,27 +139,27 @@
             "unique_identifier": "PURCHASING_QUATATION_COUNTER_OFFER",
             "functions": [
                 {
-                "functions_name": "Read Quatation Counter Offer",
-                "functions_alias": "QUATATION_COUNTER_OFFER_GET",
-                "functions_description": "Read Quatation Counter Offer",
+                "function_name": "Read Quatation Counter Offer",
+                "function_alias": "QUATATION_COUNTER_OFFER_GET",
+                "function_description": "Read Quatation Counter Offer",
                 "unique_identifier": "PURCHASING_QUATATION_COUNTER_OFFER_GET"
                 },
                 {
-                "functions_name": "Create Quatation Counter Offer",
-                "functions_alias": "QUATATION_COUNTER_OFFER_POST",
-                "functions_description": "Read Quatation Counter Offer",
+                "function_name": "Create Quatation Counter Offer",
+                "function_alias": "QUATATION_COUNTER_OFFER_POST",
+                "function_description": "Read Quatation Counter Offer",
                 "unique_identifier": "PURCHASING_QUATATION_COUNTER_OFFER_POST"
                 },
                 {
-                "functions_name": "Update Quatation Counter Offer",
-                "functions_alias": "QUATATION_COUNTER_OFFER_PUT",
-                "functions_description": "Update Quatation Counter Offer",
+                "function_name": "Update Quatation Counter Offer",
+                "function_alias": "QUATATION_COUNTER_OFFER_PUT",
+                "function_description": "Update Quatation Counter Offer",
                 "unique_identifier": "PURCHASING_QUATATION_COUNTER_OFFER_PUT"
                 },
                 {
-                "functions_name": "Delete Quatation Counter Offer",
-                "functions_alias": "QUATATION_COUNTER_OFFER_DELETE",
-                "functions_description": "Delete Quatation Counter Offer",
+                "function_name": "Delete Quatation Counter Offer",
+                "function_alias": "QUATATION_COUNTER_OFFER_DELETE",
+                "function_description": "Delete Quatation Counter Offer",
                 "unique_identifier": "PURCHASING_QUATATION_COUNTER_OFFER_DELETE"
                 }
             ]
@@ -171,27 +171,27 @@
             "unique_identifier": "PURCHASING_REQUEST_COUNTER_OFFER",
             "functions": [
                 {
-                "functions_name": "Read Request Counter Offer",
-                "functions_alias": "REQUEST_COUNTER_OFFER_GET",
-                "functions_description": "Read Request Counter Offer",
+                "function_name": "Read Request Counter Offer",
+                "function_alias": "REQUEST_COUNTER_OFFER_GET",
+                "function_description": "Read Request Counter Offer",
                 "unique_identifier": "PURCHASING_REQUEST_COUNTER_OFFER_GET"
                 },
                 {
-                "functions_name": "Create Request Counter Offer",
-                "functions_alias": "REQUEST_COUNTER_OFFER_POST",
-                "functions_description": "Read Request Counter Offer",
+                "function_name": "Create Request Counter Offer",
+                "function_alias": "REQUEST_COUNTER_OFFER_POST",
+                "function_description": "Read Request Counter Offer",
                 "unique_identifier": "PURCHASING_REQUEST_COUNTER_OFFER_POST"
                 },
                 {
-                "functions_name": "Update Request Counter Offer",
-                "functions_alias": "REQUEST_COUNTER_OFFER_PUT",
-                "functions_description": "Update Request Counter Offer",
+                "function_name": "Update Request Counter Offer",
+                "function_alias": "REQUEST_COUNTER_OFFER_PUT",
+                "function_description": "Update Request Counter Offer",
                 "unique_identifier": "PURCHASING_REQUEST_COUNTER_OFFER_PUT"
                 },
                 {
-                "functions_name": "Delete Request Counter Offer",
-                "functions_alias": "REQUEST_COUNTER_OFFER_DELETE",
-                "functions_description": "Delete Request Counter Offer",
+                "function_name": "Delete Request Counter Offer",
+                "function_alias": "REQUEST_COUNTER_OFFER_DELETE",
+                "function_description": "Delete Request Counter Offer",
                 "unique_identifier": "PURCHASING_REQUEST_COUNTER_OFFER_DELETE"
                 }
             ]
@@ -203,27 +203,27 @@
             "unique_identifier": "PURCHASING_ACTIVITY_LOGS",
             "functions": [
                 {
-                "functions_name": "Read Activity Logs",
-                "functions_alias": "ACTIVITY_LOGS_GET",
-                "functions_description": "Read Activity Logs",
+                "function_name": "Read Activity Logs",
+                "function_alias": "ACTIVITY_LOGS_GET",
+                "function_description": "Read Activity Logs",
                 "unique_identifier": "PURCHASING_ACTIVITY_LOGS_GET"
                 },
                 {
-                "functions_name": "Create Activity Logs",
-                "functions_alias": "ACTIVITY_LOGS_POST",
-                "functions_description": "Read Activity Logs",
+                "function_name": "Create Activity Logs",
+                "function_alias": "ACTIVITY_LOGS_POST",
+                "function_description": "Read Activity Logs",
                 "unique_identifier": "PURCHASING_ACTIVITY_LOGS_POST"
                 },
                 {
-                "functions_name": "Update Activity Logs",
-                "functions_alias": "ACTIVITY_LOGS_PUT",
-                "functions_description": "Update Activity Logs",
+                "function_name": "Update Activity Logs",
+                "function_alias": "ACTIVITY_LOGS_PUT",
+                "function_description": "Update Activity Logs",
                 "unique_identifier": "PURCHASING_ACTIVITY_LOGS_PUT"
                 },
                 {
-                "functions_name": "Delete Activity Logs",
-                "functions_alias": "ACTIVITY_LOGS_DELETE",
-                "functions_description": "Delete Activity Logs",
+                "function_name": "Delete Activity Logs",
+                "function_alias": "ACTIVITY_LOGS_DELETE",
+                "function_description": "Delete Activity Logs",
                 "unique_identifier": "PURCHASING_ACTIVITY_LOGS_DELETE"
                 }
             ]
