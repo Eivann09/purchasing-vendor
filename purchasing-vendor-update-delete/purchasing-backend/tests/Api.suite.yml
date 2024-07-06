@@ -1,0 +1,9 @@
+actor: ApiTester
+suite_namespace: Tests\Api
+modules:
+  enabled:
+    - REST:
+        url: http://localhost/purchasing-backend/PurchasingManagement/Vendors/
+        depends: PhpBrowser
+        part: Json
+
