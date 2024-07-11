@@ -51,5 +51,5 @@ interface ModuleInterface
      * @param array $payload Query payload
      * @return false|string JSON-encoded response
      */
-    public function httpFileUpload(array $payload);
+    public function httpFileUpload($identity, array $payload);
 }

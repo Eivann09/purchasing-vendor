@@ -5,7 +5,6 @@ use Server\Handler;
 
 try {
     $API = new Handler();
-
     $result = $API->handleRequest();
 
     exit($result);
@@ -18,7 +17,7 @@ try {
     );
 
     header('Content-Type: application/json');
-
+    echo "$e.Message";
     exit(json_encode([
         'message' => 'Internal Server Error : Something went wrong.',
     ]));

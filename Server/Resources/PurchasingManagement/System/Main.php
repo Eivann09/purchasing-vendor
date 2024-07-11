@@ -21,6 +21,12 @@ class Main
      */
     protected MysqliDb $project_management_db;
 
+    protected $db;
+
+    protected $Config;
+
+    protected $Messages;
+
     /**
      * Main constructor.
      * @param bool $initialize_db

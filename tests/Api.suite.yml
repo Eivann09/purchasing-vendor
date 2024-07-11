@@ -3,6 +3,7 @@ suite_namespace: Tests\Api
 modules:
   enabled:
     - REST:
-        url: <Your API HTTP URL>
+        url: http://localhost/purchasing-backend/index.php
         depends: PhpBrowser
         part: Json
+

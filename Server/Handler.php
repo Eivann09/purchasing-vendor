@@ -156,15 +156,14 @@ class Handler
     {
         $resource = ucfirst($URI['resource']);
         $module = ucfirst($URI['module']);
-
-        $module_path = "Resources\\$resource\\Modules\\$module\\API";
-
+        
+        $module_path = "Resources\\PurchasingManagement\\Modules\\Vendors\\API";
+        
         if (!class_exists($module_path)) {
             exit(0);
         }
 
         $URIClass = new $module_path;
-
         if ($method === 'httpPost' || $method === 'httpGet' || $method === 'httpFileUpload') {
             if ($method === 'httpGet') {
                 $module_payload = $_GET;

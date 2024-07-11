@@ -1,0 +1,1237 @@
+[2024-03-20 07:50:47]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(133): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 07:51:13]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(133): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 07:53:02]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(133): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 07:53:34]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(133): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 07:53:50]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(133): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 07:56:58]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(142): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:00:03]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(142): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:00:58]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(140): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:01:27]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(140): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:03:16]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(140): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:19:13]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(140): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:22:08]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(142): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:24:05]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(141): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:36:42]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(134): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:40:39]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(134): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:41:11]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(134): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:48:07]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(129): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:48:57]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(129): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 08:54:55]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(129): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 09:05:20]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(129): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 09:06:05]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(129): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 09:08:59]
+mysqli_sql_exception: Unknown column 'services_offered' in 'field list' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(128): MysqliDb->insert('vendors', Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 09:16:42]
+mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`p8_dt_ojt_db`.`tbl_vendors`, CONSTRAINT `fk_tbl_vendors_tbl_vendors_1` FOREIGN KEY (`bank_account_id`) REFERENCES `tbl_bank_accounts` (`id`)) in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1541
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1541): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#2 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(126): MysqliDb->insert('vendors', Array)
+#3 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#4 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#5 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#6 {main}
+
+[2024-03-20 09:17:56]
+mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`p8_dt_ojt_db`.`tbl_vendors`, CONSTRAINT `fk_tbl_vendors_tbl_vendors_1` FOREIGN KEY (`bank_account_id`) REFERENCES `tbl_bank_accounts` (`id`)) in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1541
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1541): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert('vendors', Array, 'INSERT')
+#2 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(126): MysqliDb->insert('vendors', Array)
+#3 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#4 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#5 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#6 {main}
+
+[2024-03-20 09:20:12]
+mysqli_sql_exception: Table 'p8_dt_ojt_db.tbl_' doesn't exist in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert(NULL, Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(138): MysqliDb->insert(NULL, Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 09:20:24]
+mysqli_sql_exception: Table 'p8_dt_ojt_db.tbl_' doesn't exist in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert(NULL, Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(138): MysqliDb->insert(NULL, Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-20 09:22:05]
+mysqli_sql_exception: Table 'p8_dt_ojt_db.tbl_' doesn't exist in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('INSERT  INTO tb...')
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1540): MysqliDb->_buildQuery(NULL, Array)
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(833): MysqliDb->_buildInsert(NULL, Array, 'INSERT')
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\VendorMicroservice\API.php(138): MysqliDb->insert(NULL, Array)
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\VendorMicroservice\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-03-26 07:26:11]
+mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`p8_dt_ojt_db`.`tbl_bank_accounts`, CONSTRAINT `tbl_bank_accounts_fk_1` FOREIGN KEY (`vendor_id`) REFERENCES `tbl_vendors` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:927
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(927): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(341): MysqliDb->update('bank_accounts', Array)
+#2 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(186): Resources\PurchasingManagement\Modules\Vendors\API->httpPut('3', Array)
+#3 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPut', Array)
+#4 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#5 {main}
+
+[2024-03-26 08:09:05]
+mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`p8_dt_ojt_db`.`tbl_bank_accounts`, CONSTRAINT `tbl_bank_accounts_fk_1` FOREIGN KEY (`vendor_id`) REFERENCES `tbl_vendors` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:927
+Stack trace:
+#0 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(927): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(341): MysqliDb->update('bank_accounts', Array)
+#2 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(186): Resources\PurchasingManagement\Modules\Vendors\API->httpPut('23', Array)
+#3 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPut', Array)
+#4 C:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#5 {main}
+
+[2024-05-09 05:09:17]
+mysqli_sql_exception: Unknown column 'vendors.id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(161): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:09:47]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(145): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:10:23]
+mysqli_sql_exception: Unknown column 'vendors.vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(161): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:10:30]
+mysqli_sql_exception: Unknown column 'vendors.id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(161): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:18:27]
+mysqli_sql_exception: Unknown column 'vendors.vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(149): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:18:42]
+mysqli_sql_exception: Unknown column 'vendors.id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(149): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:24:45]
+mysqli_sql_exception: Unknown column 'vendors.id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:27:13]
+mysqli_sql_exception: Not unique table/alias: 'tbl_vendors' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:27:38]
+mysqli_sql_exception: Unknown column 'vendors.id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:27:56]
+mysqli_sql_exception: Unknown column 'vendors.id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:32:43]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:33:17]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:34:17]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:37:01]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:38:59]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:42:02]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:42:57]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:43:57]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(146): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:45:00]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(146): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:46:15]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(146): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:47:18]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(146): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:47:25]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(146): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:47:34]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(146): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:48:20]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(146): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:48:32]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(146): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:50:26]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(144): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:51:51]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(144): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:52:14]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(144): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:53:22]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(144): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 05:58:15]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 06:01:36]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 06:04:13]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 06:05:04]
+mysqli_sql_exception: Unknown column 'vendor_id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 06:09:35]
+mysqli_sql_exception: Unknown column 'vendorsid' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 06:09:49]
+mysqli_sql_exception: Unknown column 'vendorsid' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 06:53:20]
+mysqli_sql_exception: Unknown column 'vendor_name' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(152): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 06:53:24]
+mysqli_sql_exception: Unknown column 'vendor_name' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(152): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 06:54:02]
+mysqli_sql_exception: Unknown column 'vendor_name' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(149): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 06:54:07]
+mysqli_sql_exception: Unknown column 'vendor_name' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(151): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 07:41:38]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): MysqliDb->mysqli()
+#4 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#5 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#6 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(161): MysqliDb->get('bank_accounts')
+#7 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#8 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#9 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#10 {main}
+
+[2024-05-09 08:05:44]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): MysqliDb->mysqli()
+#4 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#5 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#6 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#7 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#8 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#9 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#10 {main}
+
+[2024-05-09 08:06:03]
+mysqli_sql_exception: Unknown column 'vendorsid' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:06:50]
+mysqli_sql_exception: Unknown column 'vendors.id' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(150): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:18:44]
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  id like ?' at line 1 in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(158): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:20:33]
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  id like ?' at line 1 in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(158): MysqliDb->get(NULL)
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:20:56]
+mysqli_sql_exception: Table 'p8_purchasing_ojt_db4.tbl_' doesn't exist in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(158): MysqliDb->get(NULL)
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:21:31]
+mysqli_sql_exception: Table 'p8_purchasing_ojt_db4.tbl_' doesn't exist in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(158): MysqliDb->get(NULL)
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:22:04]
+mysqli_sql_exception: Not unique table/alias: 'tbl_vendors' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(158): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:22:15]
+mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE  id like ?' at line 1 in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(158): MysqliDb->get('vendors')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:27:06]
+mysqli_sql_exception: Unknown column 'vendor_name' in 'where clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(148): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:41:10]
+mysqli_sql_exception: Unknown column 'bank_accounts.vendor_id' in 'on clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:44:25]
+mysqli_sql_exception: Table 'p8_purchasing_ojt_db4.tbl_tbl_vendors' doesn't exist in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:44:50]
+mysqli_sql_exception: Unknown column 'bank_accounts.vendor_id' in 'on clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:45:48]
+mysqli_sql_exception: Unknown column 'vendors.id' in 'on clause' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:56:14]
+mysqli_sql_exception: Not unique table/alias: 'tbl_bank_accounts' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:56:21]
+mysqli_sql_exception: Not unique table/alias: 'tbl_bank_accounts' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:56:26]
+mysqli_sql_exception: Not unique table/alias: 'tbl_bank_accounts' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 08:56:55]
+mysqli_sql_exception: Not unique table/alias: 'tbl_bank_accounts' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('bank_accounts')
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 09:17:52]
+Exception: Wrong JOIN type: FULL OUTER in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1088
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(143): MysqliDb->join('vendors', 'tbl_bank_accoun...', 'FULL OUTER')
+#1 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#2 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#3 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#4 {main}
+
+[2024-05-09 09:19:42]
+mysqli_sql_exception: Table 'p8_purchasing_ojt_db4.tbl_' doesn't exist in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:1995
+Stack trace:
+#0 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): mysqli->prepare('SELECT  * FROM ...')
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#3 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get(NULL)
+#4 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#5 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#6 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#7 {main}
+
+[2024-05-09 09:24:23]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): MysqliDb->mysqli()
+#4 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#5 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#6 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('bank_accounts')
+#7 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#8 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#9 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#10 {main}
+
+[2024-05-09 09:33:58]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1995): MysqliDb->mysqli()
+#4 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(1601): MysqliDb->_prepareQuery()
+#5 D:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(751): MysqliDb->_buildQuery(NULL)
+#6 D:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(147): MysqliDb->get('bank_accounts')
+#7 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(175): Resources\PurchasingManagement\Modules\Vendors\API->httpGet(Array)
+#8 D:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpGet', Array)
+#9 D:\xampp\htdocs\purchasing-backend\index.php(9): Server\Handler->handleRequest()
+#10 {main}
+
+[2024-07-08 09:00:31]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(2283): MysqliDb->mysqli()
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(263): MysqliDb->startTransaction()
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(174): Resources\PurchasingManagement\Modules\Vendors\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(8): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-07-08 09:00:32]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(2283): MysqliDb->mysqli()
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(263): MysqliDb->startTransaction()
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(174): Resources\PurchasingManagement\Modules\Vendors\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(8): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-07-08 09:00:33]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(2283): MysqliDb->mysqli()
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(263): MysqliDb->startTransaction()
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(174): Resources\PurchasingManagement\Modules\Vendors\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(8): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-07-08 09:00:45]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(2283): MysqliDb->mysqli()
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(263): MysqliDb->startTransaction()
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(174): Resources\PurchasingManagement\Modules\Vendors\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(8): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-07-08 09:00:46]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(2283): MysqliDb->mysqli()
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(263): MysqliDb->startTransaction()
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(174): Resources\PurchasingManagement\Modules\Vendors\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(8): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-07-08 09:01:14]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(2283): MysqliDb->mysqli()
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(263): MysqliDb->startTransaction()
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(174): Resources\PurchasingManagement\Modules\Vendors\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(8): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-07-08 09:03:46]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(2283): MysqliDb->mysqli()
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(263): MysqliDb->startTransaction()
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(174): Resources\PurchasingManagement\Modules\Vendors\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(8): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-07-08 09:03:47]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(2283): MysqliDb->mysqli()
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(263): MysqliDb->startTransaction()
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(174): Resources\PurchasingManagement\Modules\Vendors\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(8): Server\Handler->handleRequest()
+#8 {main}
+
+[2024-07-08 09:04:31]
+mysqli_sql_exception: Unknown database 'p8_purchasing_ojt_db' in C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php:323
+Stack trace:
+#0 [internal function]: mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'p8_purchasing_o...', NULL, NULL)
+#1 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(323): ReflectionClass->newInstanceArgs(Array)
+#2 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(415): MysqliDb->connect('default')
+#3 C:\xampp\htdocs\purchasing-backend\vendor\thingengineer\mysqli-database-class\MysqliDb.php(2283): MysqliDb->mysqli()
+#4 C:\xampp\htdocs\purchasing-backend\Server\Resources\PurchasingManagement\Modules\Vendors\API.php(263): MysqliDb->startTransaction()
+#5 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(174): Resources\PurchasingManagement\Modules\Vendors\API->httpPost(Array)
+#6 C:\xampp\htdocs\purchasing-backend\Server\Handler.php(21): Server\Handler->executeApiRequest(Array, 'httpPost', Array)
+#7 C:\xampp\htdocs\purchasing-backend\index.php(8): Server\Handler->handleRequest()
+#8 {main}
+
